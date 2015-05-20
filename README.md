@@ -1,1 +1,1 @@
-#tutum-ntpdate
+#ntpd
