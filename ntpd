@@ -1,3 +1,2 @@
 #!/bin/sh
-
 ntpd -d -q -n -p ntp.ubuntu.com
