@@ -1,6 +1,6 @@
 #tutum/ntpd
 
-This container syncs system date on its host machine.
+This container synchronizes system date on its host machine.
 
 ##Usage
 
