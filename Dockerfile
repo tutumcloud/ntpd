@@ -1,4 +1,6 @@
-FROM alpine
+FROM alpine:latest
 MAINTAINER support@tutum.co
-ADD ntpd /etc/periodic/daily/
-CMD ["sh", "-c", "/etc/periodic/daily/ntpd && crond -f"]
+
+ADD ntpd /etc/periodic/daily/ntpd
+ADD run.sh /run.sh
+CMD ["/run.sh"]
