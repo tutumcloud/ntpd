@@ -1,7 +1,7 @@
 # tutum/ntpd
 
-Keeps the host datetime in sync
+This repo is deprecated: we are not going to maintain it anymore.
 
-## Usage
+You can visit [Docker Store](https://store.docker.com) to explore similar images.
 
-	docker run -d --privileged tutum/ntpd
+To access the last commit of the code, please switch to [master branch](https://github.com/tutumcloud/ntpd/tree/master).

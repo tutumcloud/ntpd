@@ -1,4 +1,0 @@
-ntpd:
-  image: tutum/ntpd
-  privileged: true
-  deployment_strategy: every_node
